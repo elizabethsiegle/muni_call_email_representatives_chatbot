@@ -1,7 +1,6 @@
 exports.handler = function(context, event, callback) {
     //Memory from the answered question
     let memory = JSON.parse(event.Memory);
-    let respObj = {};
     //get answers from Memory
     let name = memory.twilio.collected_data.call_collect.answers.name.answer; 
     let zip_code = memory.twilio.collected_data.call_collect.answers.zip_code.answer;
