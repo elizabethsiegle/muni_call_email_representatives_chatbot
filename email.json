@@ -1,0 +1,37 @@
+{
+	"actions": [
+		{
+			"collect": {
+				"name": "email_collect",
+				"questions": [
+					{
+						"question": "What is your name?",
+						"name": "name"
+					},
+					{
+						"question": "What SF neighborhood do you live (or work)?",
+						"name": "live_work"
+					},
+					{
+						"question": "What is your SF zip code? If you need one, use 94109.",
+						"name": "zip_code"
+					},
+					{
+						"question": "What are your demands? If you send `default` we will send one for you (ie. move funds from the police dept. to Muni.)",
+						"name": "demands"
+					},
+					{
+						"question": "Why is Muni important to you? How does it affect your day-to-day life? If you send `default` we will answer this for you (ie. `Muni is important to me and so many San Franciscans because I take it to get to work, volunteer, see friends.`)",
+						"name": "important_to_you"
+					}
+				],
+				"on_complete": {
+					"redirect": {
+						"method": "POST",
+						"uri": "https://rosewood-starling-9398.twil.io/muni_email"
+					}
+				}
+			}
+		}
+	]
+}
