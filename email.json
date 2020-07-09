@@ -9,7 +9,7 @@
 						"name": "name"
 					},
 					{
-						"question": "What SF neighborhood do you live (or work)?",
+						"question": "What SF neighborhood do you live (or work)? If you need one, maybe try FiDi or Japantown.",
 						"name": "live_work"
 					},
 					{
