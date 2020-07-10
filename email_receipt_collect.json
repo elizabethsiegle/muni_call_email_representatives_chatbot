@@ -1,0 +1,40 @@
+{
+	"actions": [
+		{
+			"collect": {
+				"name": "email_receipt_yes_no",
+				"questions": [
+					{
+						"question": "Would you like an email receipt?",
+						"name": "email_receipt",
+						"validate": {
+							"allowed_values": {
+								"list": [
+									"yes",
+									"no"
+								]
+							},
+							"on_failure": {
+								"messages": [
+									{
+										"say": "Sorry, please send yes or no!"
+									}
+								],
+								"repeat_question": true
+							},
+							"on_success": {
+								"say": "Great, got it."
+							}
+						}
+					}
+				],
+				"on_complete": {
+					"redirect": {
+						"method": "POST",
+						"uri": "https://rosewood-starling-9398.twil.io/muniemailreceipt"
+					}
+				}
+			}
+		}
+	]
+}

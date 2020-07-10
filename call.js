@@ -40,7 +40,7 @@ exports.handler = function(context, event, callback) {
                 const resp = {
                     actions: [
                         {
-                            say: "Thank you for calling all of SF County Transit Authority. \n\n The call to them said: " + bodyCall + "You can also leave them a voicemail, sign this petition https://bit.ly/2ZNEfbv, spread the word to your friends, send more emails, and more. Want to get more involved? Fill out this form: https://forms.gle/FHqt7W62D9W2t164A"
+                            say: "Thank you for calling all 11 reps of SF County Transit Authority. \n\n The call to them said: " + bodyCall + "\n\n You can also leave them a voicemail, sign this petition https://bit.ly/2ZNEfbv, spread the word to your friends, send more emails, and more. Want to get more involved? Fill out this form: https://forms.gle/FHqt7W62D9W2t164A"
                         }	 
                     ]
                 };

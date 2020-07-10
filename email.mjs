@@ -23,86 +23,78 @@ exports.handler = function(context, event, callback) {
             to: 'Aaron.Peskin@sfgov.org', 
             from: `${name} <we_love_and_need_muni@sf.com>`,
             subject: '🍩 Muni is a critical service to SF. Tax billionaires, defund SFPD🍩',
-            text: 'Hi Aaron! Keep SF healthy, affordable, liveable, and accessible for all, including working families. The populations who ride Muni the most are the people our city is ALREADY failing to serve.',
-            html: `<p>Muni is a <em>critical</em> service to SF. <em>Tax billionaires, defund SFPD</em></p><p>Additionally, 40% of emissions in SF come from transportation. We should not force more cars (and more air pollutants) on the road, especially during a pandemic when people exposed to air pollutants are dying at higher rates.</p><p>My name is ${name}, I live and work in ${live_work}, and my zip code is ${zip_code}.${demands} ${important_to_you}</p> <p>Thank you for your time.</p>`,
+            html: `Hi Aaron! Keep SF healthy, affordable, liveable, and accessible for all, including working families. The populations who ride Muni the most are the people our city is ALREADY failing to serve. <p>Muni is a <em>critical</em> service to SF. <em>Tax billionaires, defund SFPD</em></p><p>Additionally, 40% of emissions in SF come from transportation. We should not force more cars (and more air pollutants) on the road, especially during a pandemic when people exposed to air pollutants are dying at higher rates.</p><p>My name is ${name}, I live and work in ${live_work}, and my zip code is ${zip_code}.${demands} ${important_to_you}</p> <p>Thank you for your time.</p>`,
         },
         {
             to: 'mandelmanstaff@sfgov.org', 
             from: `${name} <we_love_and_need_muni@sf.com>`,
             subject: '🍩 Muni is a critical service to SF. Tax billionaires, defund SFPD🍩',
-            text: 'Hi Rafael! Keep SF healthy, affordable, liveable, and accessible for all, including working families. The populations who ride Muni the most are the people our city is ALREADY failing to serve.',
-            html: `<p>Muni is a <em>critical</em> service to SF. <em>Tax billionaires, defund SFPD</em></p><p>Additionally, 40% of emissions in SF come from transportation. We should not force more cars (and more air pollutants) on the road, especially during a pandemic when people exposed to air pollutants are dying at higher rates.</p><p>My name is ${name}, I live and work in ${live_work}, and my zip code is ${zip_code}.</p><p>${demands} ${important_to_you}</p> <p>Thank you for your time.</p>`,
+            html: `Hi Rafael! Keep SF healthy, affordable, liveable, and accessible for all, including working families. The populations who ride Muni the most are the people our city is ALREADY failing to serve. <p>Muni is a <em>critical</em> service to SF. <em>Tax billionaires, defund SFPD</em></p><p>Additionally, 40% of emissions in SF come from transportation. We should not force more cars (and more air pollutants) on the road, especially during a pandemic when people exposed to air pollutants are dying at higher rates.</p><p>My name is ${name}, I live and work in ${live_work}, and my zip code is ${zip_code}.</p><p>${demands} ${important_to_you}</p> <p>Thank you for your time.</p>`,
         },
         {
             to: 'prestonstaff@sfgov.org',
             from: `${name} <we_love_and_need_muni@sf.com>`,
             subject: '🍩 Muni is a critical service to SF. Tax billionaires, defund SFPD🍩',
-            text: 'Hi Dean! Keep SF healthy, affordable, liveable, and accessible for all, including working families. The populations who ride Muni the most are the people our city is ALREADY failing to serve.',
-            html: `<p>Muni is a <em>critical</em> service to SF. <em>Tax billionaires, defund SFPD</em></p><p>Additionally, 40% of emissions in SF come from transportation. We should not force more cars (and more air pollutants) on the road, especially during a pandemic when people exposed to air pollutants are dying at higher rates.</p><p>My name is ${name}, I live and work in ${live_work}, and my zip code is ${zip_code}.</p><p>${demands} ${important_to_you}</p> <p>Thank you for your time.</p>`,
+            html: `Hi Dean! Keep SF healthy, affordable, liveable, and accessible for all, including working families. The populations who ride Muni the most are the people our city is ALREADY failing to serve. <p>Muni is a <em>critical</em> service to SF. <em>Tax billionaires, defund SFPD</em></p><p>Additionally, 40% of emissions in SF come from transportation. We should not force more cars (and more air pollutants) on the road, especially during a pandemic when people exposed to air pollutants are dying at higher rates.</p><p>My name is ${name}, I live and work in ${live_work}, and my zip code is ${zip_code}.</p><p>${demands} ${important_to_you}</p> <p>Thank you for your time.</p>`,
         },
         {
             to:'Sandra.Fewer@sfgov.org',
             from: `${name} <we_love_and_need_muni@sf.com>`,
             subject: '🍩 Muni is a critical service to SF. Tax billionaires, defund SFPD🍩',
-            text: 'Hi Sandra! Keep SF healthy, affordable, liveable, and accessible for all, including working families. The populations who ride Muni the most are the people our city is ALREADY failing to serve.',
-            html: `<p>Muni is a <em>critical</em> service to SF. <em>Tax billionaires, defund SFPD</em></p><p>Additionally, 40% of emissions in SF come from transportation. We should not force more cars (and more air pollutants) on the road, especially during a pandemic when people exposed to air pollutants are dying at higher rates.</p><p>My name is ${name}, I live and work in ${live_work}, and my zip code is ${zip_code}.</p><p>${demands} ${important_to_you}</p> <p>Thank you for your time.</p>`,
+            html: `Hi Sandra! Keep SF healthy, affordable, liveable, and accessible for all, including working families. The populations who ride Muni the most are the people our city is ALREADY failing to serve. <p>Muni is a <em>critical</em> service to SF. <em>Tax billionaires, defund SFPD</em></p><p>Additionally, 40% of emissions in SF come from transportation. We should not force more cars (and more air pollutants) on the road, especially during a pandemic when people exposed to air pollutants are dying at higher rates.</p><p>My name is ${name}, I live and work in ${live_work}, and my zip code is ${zip_code}.</p><p>${demands} ${important_to_you}</p> <p>Thank you for your time.</p>`,
         },
         {
             to:'haneystaff@sfgov.org',
             from: `${name} <we_love_and_need_muni@sf.com>`,
             subject: '🍩 Muni is a critical service to SF. Tax billionaires, defund SFPD🍩',
-            text: 'Hi Matt! Keep SF healthy, affordable, liveable, and accessible for all, including working families. The populations who ride Muni the most are the people our city is ALREADY failing to serve.',
-            html: `<p>Muni is a <em>critical</em> service to SF. <em>Tax billionaires, defund SFPD</em></p><p>Additionally, 40% of emissions in SF come from transportation. We should not force more cars (and more air pollutants) on the road, especially during a pandemic when people exposed to air pollutants are dying at higher rates.</p><p>My name is ${name}, I live and work in ${live_work}, and my zip code is ${zip_code}.</p><p>${demands} ${important_to_you}</p> <p>Thank you for your time.</p>`,
+            html: `Hi Matt! Keep SF healthy, affordable, liveable, and accessible for all, including working families. The populations who ride Muni the most are the people our city is ALREADY failing to serve. <p>Muni is a <em>critical</em> service to SF. <em>Tax billionaires, defund SFPD</em></p><p>Additionally, 40% of emissions in SF come from transportation. We should not force more cars (and more air pollutants) on the road, especially during a pandemic when people exposed to air pollutants are dying at higher rates.</p><p>My name is ${name}, I live and work in ${live_work}, and my zip code is ${zip_code}.</p><p>${demands} ${important_to_you}</p> <p>Thank you for your time.</p>`,
         },
         {
             to:'marstaff@sfgov.org',
             from: `${name} <we_love_and_need_muni@sf.com>`,
-            subject: '🍩 Muni is a critical service to SF. Tax billionaires, defund SFPD🍩',
-            text: 'Hi Gordon! Keep SF healthy, affordable, liveable, and accessible for all, including working families. The populations who ride Muni the most are the people our city is ALREADY failing to serve.',
-            html: `<p>Muni is a <em>critical</em> service to SF. <em>Tax billionaires, defund SFPD</em></p><p>Additionally, 40% of emissions in SF come from transportation. We should not force more cars (and more air pollutants) on the road, especially during a pandemic when people exposed to air pollutants are dying at higher rates.</p><p>My name is ${name}, I live and work in ${live_work}, and my zip code is ${zip_code}.</p><p>${demands} ${important_to_you}</p> <p>Thank you for your time.</p>`,
+            subject: '🍩 Muni is a CRITICAL service to SF. Tax billionaires, defund SFPD🍩',
+            html: `Hi Gordon! Keep SF healthy, affordable, liveable, and accessible for all, including working families. The populations who ride Muni the most are the people our city is ALREADY failing to serve. <p>Muni is a <em>critical</em> service to SF. <em>Tax billionaires, defund SFPD</em></p><p>Additionally, 40% of emissions in SF come from transportation. We should not force more cars (and more air pollutants) on the road, especially during a pandemic when people exposed to air pollutants are dying at higher rates.</p><p>My name is ${name}, I live and work in ${live_work}, and my zip code is ${zip_code}.</p><p>${demands} ${important_to_you}</p> <p>Thank you for your time.</p>`,
         },
         {
             to:'RonenStaff@sfgov.org',
             from: `${name} <we_love_and_need_muni@sf.com>`,
             subject: '🍩 Muni is a critical service to SF. Tax billionaires, defund SFPD🍩',
-            text: 'Hi Hilary! Keep SF healthy, affordable, liveable, and accessible for all, including working families. The populations who ride Muni the most are the people our city is ALREADY failing to serve.',
-            html: `<p>Muni is a <em>critical</em> service to SF. <em>Tax billionaires, defund SFPD</em></p><p>Additionally, 40% of emissions in SF come from transportation. We should not force more cars (and more air pollutants) on the road, especially during a pandemic when people exposed to air pollutants are dying at higher rates.</p><p>My name is ${name}, I live and work in ${live_work}, and my zip code is ${zip_code}.</p><p>${demands} ${important_to_you}</p> <p>Thank you for your time.</p>`,
+            html: `Hi Hilary! Keep SF healthy, affordable, liveable, and accessible for all, including working families. The populations who ride Muni the most are the people our city is ALREADY failing to serve.<p>Muni is a <em>critical</em> service to SF. <em>Tax billionaires, defund SFPD</em></p><p>Additionally, 40% of emissions in SF come from transportation. We should not force more cars (and more air pollutants) on the road, especially during a pandemic when people exposed to air pollutants are dying at higher rates.</p><p>My name is ${name}, I live and work in ${live_work}, and my zip code is ${zip_code}.</p><p>${demands} ${important_to_you}</p> <p>Thank you for your time.</p>`,
         },
         {
             to:'Ahsha.Safai@sfgov.org',
             from: `${name} <we_love_and_need_muni@sf.com>`,
             subject: '🍩 Muni is a critical service to SF. Tax billionaires, defund SFPD🍩',
-            text: 'Hi Ahsha! Keep SF healthy, affordable, liveable, and accessible for all, including working families. The populations who ride Muni the most are the people our city is ALREADY failing to serve.',
-            html: `<p>Muni is a <em>critical</em> service to SF. <em>Tax billionaires, defund SFPD</em></p><p>Additionally, 40% of emissions in SF come from transportation. We should not force more cars (and more air pollutants) on the road, especially during a pandemic when people exposed to air pollutants are dying at higher rates.</p><p>My name is ${name}, I live and work in ${live_work}, and my zip code is ${zip_code}.</p><p>${demands} ${important_to_you}</p> <p>Thank you for your time.</p>`,
+            html: `Hi Ahsha! Keep SF healthy, affordable, liveable, and accessible for all, including working families. The populations who ride Muni the most are the people our city is ALREADY failing to serve. <p>Muni is a <em>critical</em> service to SF. <em>Tax billionaires, defund SFPD</em></p><p>Additionally, 40% of emissions in SF come from transportation. We should not force more cars (and more air pollutants) on the road, especially during a pandemic when people exposed to air pollutants are dying at higher rates.</p><p>My name is ${name}, I live and work in ${live_work}, and my zip code is ${zip_code}.</p><p>${demands} ${important_to_you}</p> <p>Thank you for your time.</p>`,
         },
         {
             to:'Catherine.Stefani@sfgov.org',
             from: `${name} <we_love_and_need_muni@sf.com>`,
             subject: '🍩 Muni is a critical service to SF. Tax billionaires, defund SFPD🍩',
-            text: 'Hi Catherine! Keep SF healthy, affordable, liveable, and accessible for all, including working families. The populations who ride Muni the most are the people our city is ALREADY failing to serve.',
-            html: `<p>Muni is a <em>critical</em> service to SF. <em>Tax billionaires, defund SFPD</em></p><p>Additionally, 40% of emissions in SF come from transportation. We should not force more cars (and more air pollutants) on the road, especially during a pandemic when people exposed to air pollutants are dying at higher rates.</p><p>My name is ${name}, I live and work in ${live_work}, and my zip code is ${zip_code}.</p><p>${demands} ${important_to_you}</p> <p>Thank you for your time.</p>`,
+            html: `Hi Catherine! Keep SF healthy, affordable, liveable, and accessible for all, including working families. The populations who ride Muni the most are the people our city is ALREADY failing to serve. <p>Muni is a <em>critical</em> service to SF. <em>Tax billionaires, defund SFPD</em></p><p>Additionally, 40% of emissions in SF come from transportation. We should not force more cars (and more air pollutants) on the road, especially during a pandemic when people exposed to air pollutants are dying at higher rates.</p><p>My name is ${name}, I live and work in ${live_work}, and my zip code is ${zip_code}.</p><p>${demands} ${important_to_you}</p> <p>Thank you for your time.</p>`,
         },
         {
             to:'waltonstaff@sfgov.org',
             from: `${name} <we_love_and_need_muni@sf.com>`,
             subject: '🍩 Muni is a critical service to SF. Tax billionaires, defund SFPD🍩',
-            text: 'Hi Shamann! Keep SF healthy, affordable, liveable, and accessible for all, including working families. The populations who ride Muni the most are the people our city is ALREADY failing to serve.',
-            html: `<p>Muni is a <em>critical</em> service to SF. <em>Tax billionaires, defund SFPD</em></p><p>Additionally, 40% of emissions in SF come from transportation. We should not force more cars (and more air pollutants) on the road, especially during a pandemic when people exposed to air pollutants are dying at higher rates.</p><p>My name is ${name}, I live and work in ${live_work}, and my zip code is ${zip_code}.</p><p>${demands} ${important_to_you}</p> <p>Thank you for your time.</p>`,
+            html: `Hi Shamann! Keep SF healthy, affordable, liveable, and accessible for all, including working families. The populations who ride Muni the most are the people our city is ALREADY failing to serve. <p>Muni is a <em>critical</em> service to SF. <em>Tax billionaires, defund SFPD</em></p><p>Additionally, 40% of emissions in SF come from transportation. We should not force more cars (and more air pollutants) on the road, especially during a pandemic when people exposed to air pollutants are dying at higher rates.</p><p>My name is ${name}, I live and work in ${live_work}, and my zip code is ${zip_code}.</p><p>${demands} ${important_to_you}</p> <p>Thank you for your time.</p>`,
         },
         {
             to:'Norman.Yee@sfgov.org',
             from: `${name} <we_love_and_need_muni@sf.com>`,
             subject: '🍩 Muni is a critical service to SF. Tax billionaires, defund SFPD🍩',
-            text: 'Hi Norman! Keep SF healthy, affordable, liveable, and accessible for all, including working families. The populations who ride Muni the most are the people our city is ALREADY failing to serve.',
-            html: `<p>Muni is a <em>critical</em> service to SF. <em>Tax billionaires, defund SFPD</em></p><p>Additionally, 40% of emissions in SF come from transportation. We should not force more cars (and more air pollutants) on the road, especially during a pandemic when people exposed to air pollutants are dying at higher rates.</p><p>My name is ${name}, I live and work in ${live_work}, and my zip code is ${zip_code}.</p><p>${demands} ${important_to_you}</p> <p>Thank you for your time.</p>`,
-        },
+            html: `Hi Norman! Keep SF healthy, affordable, liveable, and accessible for all, including working families. The populations who ride Muni the most are the people our city is ALREADY failing to serve. <p>Muni is a <em>critical</em> service to SF. <em>Tax billionaires, defund SFPD</em></p><p>Additionally, 40% of emissions in SF come from transportation. We should not force more cars (and more air pollutants) on the road, especially during a pandemic when people exposed to air pollutants are dying at higher rates.</p><p>My name is ${name}, I live and work in ${live_work}, and my zip code is ${zip_code}.</p><p>${demands} ${important_to_you}</p> <p>Thank you for your time.</p>`,
+        }
     ];
     sgMail.send(messages)
     .then(response => {
         const resp = {
             actions: [
             {
-                say: "Thank you for emailing all 11 members of the SF County Transit Authority. The body of the sent email was: \n\n " + email_body +  "\n\n You can also leave them a voicemail, sign this petition https://bit.ly/2ZNEfbv, spread the word to your friends, send more emails, and more. Want to get more involved? Fill out this form: https://forms.gle/FHqt7W62D9W2t164A. \n\n If you want to contact just one representative, try SF Transport Authority Chair/District 3 supervisor Aaron Peskin at (415) 554-7450 and Aaron.Peskin@sfgov.org or District 9 supervisor Hillary Ronen (also on the Metropolitan Transportation Commission) at (415) 554-5144 and RonenStaff@sfgov.org. You can also send more calls and emails by chatting with this bot."
+                say: "Thank you for emailing all 11 members of the SF County Transit Authority. You can also leave them a voicemail, sign this petition https://bit.ly/2ZNEfbv, spread the word to your friends, send more emails, and more. Want to get more involved? Fill out this form: https://forms.gle/FHqt7W62D9W2t164A. \n\n If you want to contact just one representative, try SF Transport Authority Chair/District 3 supervisor Aaron Peskin at (415) 554-7450 and Aaron.Peskin@sfgov.org or District 9 supervisor Hillary Ronen (also on the Metropolitan Transportation Commission) at (415) 554-5144 and RonenStaff@sfgov.org. You can also send more calls and emails by chatting with this bot."
+            },
+            {
+                redirect: "task://email_receipt"
             }
         	]
         };
