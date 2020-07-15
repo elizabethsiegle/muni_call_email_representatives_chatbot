@@ -1,0 +1,14 @@
+{
+
+    "actions": [
+
+            {
+                    "say": "Hi! I'm a chatbot that will automatically mass email or call ALL 11 San Francisco County Transportation Authority members for you. \n\n Send something like `email`, `call`, or `resources` to get started."
+            },
+            {
+                    "listen": true
+            }
+
+    ]
+
+}

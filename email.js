@@ -85,6 +85,12 @@ exports.handler = function(context, event, callback) {
             from: `${name} <we_love_and_need_muni@sf.com>`,
             subject: '🍩 Muni is a critical service to SF. Tax billionaires, defund SFPD🍩',
             html: `Hi Norman! <p>My name is ${name}, I live and work in ${live_work}, and my zip code is ${zip_code}. ${new_demands} ${new_important_to_you}</p> Keep SF healthy, affordable, liveable, and accessible for all, including working families. The populations who ride Muni the most are the people our city is ALREADY failing to serve. <p>Muni is a <em>critical</em> service to SF. <em>Tax billionaires, defund SFPD</em></p><p>Additionally, 40% of emissions in SF come from transportation. We should not force more cars (and more air pollutants) on the road, especially during a pandemic when people exposed to air pollutants are dying at higher rates.</p><p>Thank you for your time. ${name}</p>`,
+        },
+        {
+            to:'vallie.brown@sfgov.org',
+            from: `${name} <we_love_and_need_muni@sf.com>`,
+            subject: '🍩 Muni is a critical service to SF. Tax billionaires, defund SFPD🍩',
+            html: `Hi Vallie! <p>My name is ${name}, I live and work in ${live_work}, and my zip code is ${zip_code}. ${new_demands} ${new_important_to_you}</p> Keep SF healthy, affordable, liveable, and accessible for all, including working families. The populations who ride Muni the most are the people our city is ALREADY failing to serve. <p>Muni is a <em>critical</em> service to SF. <em>Tax billionaires, defund SFPD</em></p><p>Additionally, 40% of emissions in SF come from transportation. We should not force more cars (and more air pollutants) on the road, especially during a pandemic when people exposed to air pollutants are dying at higher rates.</p><p>Thank you for your time. ${name}</p>`,
         }
     ];
     sgMail.send(messages)

@@ -20,7 +20,8 @@ exports.handler = function(context, event, callback) {
         'Ahsha':'+14155546975',
         'Catherine': '+14155547752', 
         'Shamann': '+14155547670', 
-        'Norman':'+14155546516'
+        'Norman':'+14155546516',
+        'Vallie': '+14155547630'
     };
     const client = context.getTwilioClient();
     var ctr = 0;
